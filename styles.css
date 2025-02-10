@@ -36,6 +36,7 @@ body{
 	/* set the font size to 1.1rem	*/
 	font-size: 1.1rem;
 	/* set the font color to #222 (--dk-gray) */
+	color: var(--dk-gray);
 	margin: 0;
 	padding: 0;
 }
@@ -85,7 +86,7 @@ nav a{
 	/* center align the text */
 	text-align: center;
 	/* remove the underline */
-	
+
 	/* make the font's size 1.2rem */
 	/* make the font bolder (600) */
 }
