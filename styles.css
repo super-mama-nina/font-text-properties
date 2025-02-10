@@ -23,30 +23,18 @@
     --dk-gray: #222;
 
     /* Font Stacks */
-.seymour-one-regular {
-		font-family: "Seymour One", serif;
-		font-weight: 400;
-		font-style: normal;
-	  }
-	  
-.lato-regular {
-		font-family: "Lato", serif;
-		font-weight: 400;
-		font-style: normal;
-	  }
-	  
-.lato-bold {
-		font-family: "Lato", serif;
-		font-weight: 700;
-		font-style: normal;
-	  }
-	  
+	--heading-fonts: 'Seymour One', Impact, sans-serif;
+	--body-fonts: 'Lato', Arial, sans-serif; 
 }
 
 body{
-	/* set the font family to Lato, Arial, sans-serif (--body-fonts) */
+	/* set the font family to Lato, Arial, sans-serif 
+	(--body-fonts) */
+	font-family: var(--body-fonts)
 	/* Set the line height to 1.5 */
+	line-height: 1.5;
 	/* set the font size to 1.1rem	*/
+	font-size: 1.1rem;
 	/* set the font color to #222 (--dk-gray) */
 	margin: 0;
 	padding: 0;
@@ -93,8 +81,11 @@ nav a{
 	padding: 1rem;
 	background-color: var(--tiffany);
 	/* set the font color to #222 (--dk-gray) */
+	color: var(--dk-gray);
 	/* center align the text */
+	text-align: center;
 	/* remove the underline */
+	
 	/* make the font's size 1.2rem */
 	/* make the font bolder (600) */
 }
